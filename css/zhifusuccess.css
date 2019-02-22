@@ -1,0 +1,99 @@
+@import "basic.css";
+body,pre{
+    font-size: 12px;
+    font-family: "PingFang SC Bold";
+}
+a{
+    color: white;
+}
+.top{
+    width: 7.5rem;
+    height: 0.37rem;
+    background: rgba(0,0,0,0.23);
+    position: relative;
+}
+.wifi{
+    width: 0.25rem;
+    height: 0.25rem;
+    float: left;
+    margin-top: 0.06rem;
+    margin-left: 0.2rem;
+    font-family: "iconfont";
+    color: white;
+    font-size: 18px;
+}
+.light i{
+    width: 0.35rem;
+    height: 0.25rem;
+    float: right;
+    font-family: "iconfont";
+    color: white;
+    margin-top: 0.06rem;
+    margin-right: 0.2rem;
+    font-size: 20px;
+}
+.header{
+    width: 7.5rem;
+    height: 6rem;
+    position: relative;
+}
+.back{
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.2rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    height: 4.45rem;
+    width: 6.23rem;
+    margin-top: 0.98rem;
+}
+/*header*/
+.center{
+    width: 6.94rem;
+    height: 1.08rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.26rem;
+    color: #ff7200;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.center p{
+    font-size: 0.5rem;
+}
+.center span{
+    font-size: 0.3rem;
+    line-height: 0.52rem;
+    color: rgba(0,0,0,0.6);
+}
+/*center*/
+.return1, .return2{
+    width: 3.79rem;
+    height: 0.84rem;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.84rem;
+    border-radius: 0.28rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.return1{
+    box-shadow: 0 4px 24px 2px rgba(255,149,55,0.8);
+    background: rgba(255,149,55,1);
+    margin-top: 9.52rem;
+}
+.return2{
+    box-shadow: 0 4px 24px 2px rgba(255,120,0,0.8);
+    background: rgb(255,120,0);
+    margin-top: 10.84rem;
+}
+/*footer*/

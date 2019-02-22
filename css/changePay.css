@@ -1,0 +1,108 @@
+@import url(basic.css);
+body,pre{
+    font-size: 12px;
+    font-family: "PingFang SC Bold";
+    position: fixed;
+}
+a{
+    color: white;
+}
+#top{
+    width: 7.5rem;
+    height: 3.25rem;
+    background: #ff7200;
+    position: relative;
+    margin: 0 auto;
+}
+.wifi{
+    width: 0.25rem;
+    height: 0.25rem;
+    float: left;
+    margin-top: 0.06rem;
+    margin-left: 0.2rem;
+    font-family: "iconfont";
+    color: white;
+    font-size: 18px;
+}
+.light i{
+    width: 0.35rem;
+    height: 0.25rem;
+    float: right;
+    font-family: "iconfont";
+    color: white;
+    margin-top: 0.06rem;
+    margin-right: 0.2rem;
+    font-size: 20px;
+}
+.change p{
+    line-height: 3.5rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.change i{
+    line-height: 1.12rem;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.35rem;
+}
+.content{
+    width: 7.5rem;
+    height: 10.63rem;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.content .money{
+    height: 1.92rem;
+    width: 100%;
+    line-height: 1.92rem;
+    position: relative;
+}
+.money .one{
+    font-size: 16px;
+    color: #5e5e5e;
+    margin-left: 0.2rem;
+}
+.money .two{
+    display: inline-block;
+    font-size: 18px;
+    color: red;
+    float: right;
+    margin-right: 0.2rem;
+}
+.content .wechat{
+    height: 3.1rem;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+.wechat img{
+    width: 3.01rem;
+    height: 1.68rem;
+    float: left;
+    margin: auto;
+}
+.content .other{
+    width: 100%;
+    height: 5rem;
+}
+.other .else img{
+    width: 2.89rem;
+    height: 0.75rem;
+}
+.other .card{
+    height: 4.86rem;
+    width: 7.07rem;
+    margin: 0 auto;
+    padding: 0.62rem 0;
+    /*display: flex;*/
+    /*align-content: space-around;*/
+}
+.other .card img{
+    width: 100%;
+    height: 1.57rem;
+    margin-bottom: 0.16rem;
+}

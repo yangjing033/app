@@ -1,0 +1,18 @@
+.footer .footRight2{
+    width: 2.55rem;
+    height: 0.98rem;
+    background: #ff7200;
+    float: right;
+    line-height: 0.98rem;
+    font-size: 18px;
+    text-align: center;
+}
+.footer .footLeft2{
+    width: 4.67rem;
+    height: 100%;
+    line-height: 0.98rem;
+    float: left;
+    font-size: 16px;
+    background: white;
+    margin-left: 0.3rem;
+}

@@ -1,0 +1,143 @@
+@import "basic.css";
+body{
+    background: url("../image/background.png");
+    position: fixed;
+}
+.header{
+    width: 7.5rem;
+    height: 4.16rem;
+    margin: 0 auto;
+}
+.top{
+    width: 7.5rem;
+    height: 0.4rem;
+    margin: 0 auto;
+}
+.top img{
+    width: 100%;
+    height: 0.4rem;
+}
+.loginBox{
+    width: 7.04rem;
+    height: 0.39rem;
+    margin: 0.23rem  auto 0;
+}
+.loginBox span{
+    width: 2.09rem;
+    height: 0.39rem;
+    font-size: 1.3rem;
+    margin-left: 0.43rem;
+    color: #010000;
+    letter-spacing: 0.15rem;
+}
+.loginBox a{
+    float: right;
+    width: 0.76rem;
+    height: 0.39rem;
+    border-radius: 0.16rem;
+    text-align: center;
+    line-height: 0.39rem;
+    color: rgba(0,0,0,0.47);
+    background: #ffffff;
+    font-size: 14px;
+    box-shadow: 0 0.02rem 0.03rem 0.02rem rgb(183,183,183);
+}
+.container{
+    width: 7.04rem;
+    height: 3.76rem;
+    min-height: 1px;
+    margin: 0 auto;
+    font-size: 28px;
+    position: relative;
+}
+.container .head1{
+    width: 1.66rem;
+    height: 2.87rem;
+    position: absolute;
+    top: 1.01rem;
+    left: 0.6rem;
+}
+.container .head2{
+    width: 3.87rem;
+    height: 1.9rem;
+    margin-top: 0;
+    margin-left: 3.15rem;
+}
+/*head*/
+.list{
+    width: 6.21rem;
+    height: 4.83rem;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list li{
+    width: 4.98rem;
+    height: 0.99rem;
+    margin-left: 0.61rem;
+    margin-top: 0.24rem;
+    border-bottom: 1px solid #cccccc;
+}
+.list li h3{
+    font: 0.34rem "San Francisco Display";
+    color: rgba(0,0,0,0.6);
+}
+.list li input{
+    width: 3rem;
+    height: 0.4rem;
+    display: block;
+    border: none;
+    margin-top: 0.13rem;
+    /*font: 0.16rem "Microsoft YaHei UI";*/
+    color: rgba(0,0,0,0.4);
+}
+/*write*/
+.login{
+    width: 6.21rem;
+    height: 0.88rem;
+    background: #c0a4a4;
+    margin: 0.39rem auto 0;
+    box-shadow: 0 0.02rem 0.2rem 0.02rem rgba(120, 120, 120, 0.72);
+}
+.login p{
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+    color: rgba(0,0,0,0.5);
+}
+/*login*/
+.other{
+    width: 100%;
+    height: 2.38rem;
+    margin-top: 0.69rem;
+}
+.other p{
+    width: 100%;
+    height: 0.19rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.7);
+}
+.other .otherBox a{
+    display: block;
+    width: 0.95rem;
+    height: 0.95rem;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0.02rem 0.2rem 0.02rem rgba(120, 120, 120, 0.72);
+}
+.other .otherBox a img{
+    width: 0.95rem;
+    height: 0.95rem;
+    border-radius: 50%;
+}
+.other .otherBox{
+    width: 2.34rem;
+    height: 0.95rem;
+    margin: 0.32rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+/*other*/
